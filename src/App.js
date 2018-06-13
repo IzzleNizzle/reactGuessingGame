@@ -80,7 +80,7 @@ class App extends Component {
         </header>
         <Wrapper>
           <Title score={this.state.score}
-            highScore={this.state.highScore}>Friends List</Title>
+            highScore={this.state.highScore}></Title>
           {this.state.friends.map(friend => (
             <FriendCard
               randomizeFriends={this.randomizeFriends}
